@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.prose-invert {
+  color: #9ca3af;
+}
+
+.prose-invert a {
+  color: #f59e0b;
+  text-decoration: none;
+}
+
+.prose-invert a:hover {
+  text-decoration: underline;
+}
