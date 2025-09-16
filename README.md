@@ -20,13 +20,13 @@ Find delicious meals, view their ingredients, and try something new every day!
 ## 🖼️ Screenshots  
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/one.png" width="400px" />
-  <img src="https://raw.githubusercontent.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/two.png" width="400px" />
+  <img src="https://github.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/four.png" width="400px" />
+  <img src="https://github.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/two.png" width="400px" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/three.png" width="400px" />
-  <img src="https://raw.githubusercontent.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/four.png" width="400px" />
+  <img src="https://github.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/three.png" width="400px" />
+  <img src="https://github.com/Rakesh-Dey-013/Recipe-Finder/blob/main/src/assets/four.png" width="400px" />
 </p>
 
 > 🖼️ *Add screenshots to a `/screenshots` folder in your repo so they appear above.*
