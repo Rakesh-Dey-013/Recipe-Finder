@@ -15,18 +15,15 @@ import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
+    AOS.init({ duration: 1000, once: true });
 
-  // Handle GitHub Pages redirect
-  const redirect = sessionStorage.redirect;
-  if (redirect) {
-    delete sessionStorage.redirect;
-    window.history.replaceState(null, '', redirect);
-  }
+    // 🧩 Handle GitHub Pages redirect
+    const redirect = sessionStorage.getItem('redirect');
+    if (redirect) {
+      sessionStorage.removeItem('redirect');
+      window.history.replaceState(null, '', redirect);
+    }
+  }, []);
 
 
   return (
