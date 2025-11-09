@@ -21,8 +21,16 @@ function App() {
     });
   }, []);
 
+  // Handle GitHub Pages redirect
+  const redirect = sessionStorage.redirect;
+  if (redirect) {
+    delete sessionStorage.redirect;
+    window.history.replaceState(null, '', redirect);
+  }
+
+
   return (
-    <Router>
+    <Router basename="/Recipe-Finder">
       <div className="min-h-screen flex flex-col bg-zinc-800 text-gray-400 font-chakra">
         <Navbar />
         <main className="flex-grow">

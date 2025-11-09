@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Save current path (minus the base)
+      const path = window.location.pathname.replace('/Recipe-Finder', '');
+      sessionStorage.redirect = path;
+      // Redirect to root index.html
+      window.location.href = '/Recipe-Finder/';
+    </script>
+  </head>
+  <body></body>
+</html>
