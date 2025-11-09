@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Redirecting...</title>
-    <script type="text/javascript">
-      // Save current path (minus the base)
-      const path = window.location.pathname.replace('/Recipe-Finder', '');
-      sessionStorage.redirect = path;
-      // Redirect to root index.html
-      window.location.href = '/Recipe-Finder/';
+    <script>
+      // Capture the full URL path including search/hash
+      const current = window.location.pathname + window.location.search + window.location.hash;
+      // Remove the /Recipe-Finder prefix so React Router can understand the route later
+      const redirect = current.replace('/Recipe-Finder', '');
+      sessionStorage.setItem('redirect', redirect);
+      // Redirect back to the index.html
+      window.location.replace('/Recipe-Finder/');
     </script>
   </head>
   <body></body>
